@@ -6,7 +6,7 @@ Look at this page https://metamask.zendesk.com/hc/en-us/articles/360036464651-Ho
 
 # golang
 
-**No binaries will be supplied** as it exposes your recovery passphrase. Please look at the code and then compile it yourself. To compile, go from https://go.dev/ first. Then type:
+**No binaries will be supplied** as it exposes your recovery passphrase. Please look at main.go carefully and then compile it yourself. To compile, install go from https://go.dev/ first. Then type:
 
 ```
 go build -o decrypt_metamask_vault
