@@ -42,4 +42,4 @@ optional arguments:
 
 It's broken at this time.
 
-ruby version uses OpenSSL and it insists on using 12 bytes iv for AES-256 GCM, If iv length is specified, decryption fails. If any of you can make it work, please send a pull request.
+ruby version uses OpenSSL and it insists on using 12 bytes iv for AES-256 GCM. If iv length is specified, decryption fails. If any of you can make it work, please send a pull request.
