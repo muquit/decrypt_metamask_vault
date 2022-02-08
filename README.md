@@ -1,6 +1,6 @@
 # Introduction
 
-I wanted to find out how Metamask keeps the vault data encrypted. Turns out it uses [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) to stretch the password to a key with 10,000 iteration to generate a 32 byte key for AES-256 GCM. It uses 16 bytes iv instead of usual 12 bytes.
+I was curious on how Metamask keeps the vault data encrypted. Turns out it uses [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) to stretch the password to a key with 10,000 iteration to generate a 32 byte key for AES-256 GCM. It uses 16 bytes iv instead of usual 12 bytes.
 
 Look at this page https://metamask.zendesk.com/hc/en-us/articles/360036464651-How-to-recover-a-Secret-Recovery-Phrase to see in what circumstances you might need to decrypt the vault and how to extract the vault JSON file.
 
